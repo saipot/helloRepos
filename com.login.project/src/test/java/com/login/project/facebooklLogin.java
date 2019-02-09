@@ -29,8 +29,8 @@ public class facebooklLogin {
 
 	@When("enter valide {string} and valide {string}")
 	public void enter_valide_and_valide(String string, String string2) {
-		driver.findElement(By.id("id")).sendKeys("your email");
-		driver.findElement(By.id("id")).sendKeys("your password");
+		driver.findElement(By.id("id")).sendKeys("your email : abc@gmail.com");
+		driver.findElement(By.id("id")).sendKeys("your password : pass123");
 		throw new cucumber.api.PendingException();
 	}
 
